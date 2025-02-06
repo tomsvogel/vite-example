@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: "red",
+        foreground: "white",
+      },
+      padding:{
+        sm: '16px',
+        md: '24px',
+        lg: '32px',
+      }
+    },
   },
   plugins: [],
 };
