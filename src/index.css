@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  --color-foreground: #121063;
+  --color-background: lightblue;
   --padding-sm: 16px;
 }

@@ -1,23 +1,23 @@
-import {Outlet, Link} from 'react-router-dom';
+import { Outlet, Link } from "react-router-dom";
 
 const DefaultLayout = () => {
   return (
-    <div className='flex flex-row w-full'>
-      <nav className='bg-foreground flex flex-col p-sm'>
+    <div className="flex flex-row w-full">
+      <nav className="bg-background flex flex-col p-sm">
         <ul>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to='/blog'>Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
 
-      <div className='flex flex-col flex-1'>
+      <div className="flex flex-col flex-1">
         <Outlet />
       </div>
     </div>
