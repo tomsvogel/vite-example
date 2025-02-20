@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const DefaultLayout = () => {
   return (
     <div className="flex flex-row w-full">
-      <nav className="bg-background flex flex-col p-sm">
+      <nav className="bg-xx flex flex-col p-sm">
         <ul>
           <li>
             <Link to="/">Home</Link>

@@ -4,11 +4,6 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-  --color-background: lightblue;
-  --padding-sm: 16px;
-}
-
 :root {
   --background: hsl(0 0% 100%);
   --foreground: hsl(0 0% 3.9%);
@@ -93,6 +88,9 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  --color-xx: lightblue;
+  --padding-sm: 16px;
 }
 
 @layer base {
